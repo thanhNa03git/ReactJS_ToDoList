@@ -46,8 +46,8 @@ class App extends React.Component {
             value={this.state.taskName}
           />
         </div>
-        <div className="row">
-          <ul className=" col-6 m-5">
+        <div className="container">
+          <ul className="listTask">
             {this.state.tasks.map((value, index) => {
               return <li key={index}>{value}</li>;
             })}
